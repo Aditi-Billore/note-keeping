@@ -1,0 +1,36 @@
+.notes-container{
+    border-radius: 20px;
+    border-color: rgb(219, 219, 219);
+    border-style: solid;
+    border-width: 0.5px;
+    display: flex;
+    flex-direction: column;
+    color:white;
+    padding: 30px;
+    margin-top: 10px;
+}
+.notes-title{
+    font-size: larger;
+    margin-bottom: 5px;
+}
+
+.tags-list{
+    display: flex;
+    list-style: none;
+}
+
+.notes-content{
+    word-spacing: 1px;
+    color:white;
+    overflow: hidden;
+   text-overflow: ellipsis;
+   display: -webkit-box;
+   -webkit-line-clamp: 2; /* number of lines to show */
+   -webkit-box-orient: vertical;
+}
+
+.tag-element{
+    color:rgb(248, 242, 234);
+    border-radius: 20px;
+    border-color: rgb(145, 143, 142);
+}

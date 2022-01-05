@@ -1,0 +1,21 @@
+.side-container{
+    width: 200px;
+    align-items: center;
+}
+
+li{
+    color: rgb(221, 210, 210);
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 20px;
+    list-style: none;
+}
+
+li>a.active{
+    color: rgb(180, 240, 240);
+    text-decoration: underline;
+}
+
+li>a:hover{
+    color: white;
+}
